@@ -26,6 +26,6 @@ Pull-Anfragen sind willkommen. Bei größeren Änderungen öffnen Sie zuerst ein
 
 Bitte stellen Sie sicher, dass Sie die Tests entsprechend aktualisieren.
 
-## License
+## Lizenz
 
 [MIT](https://choosealicense.com/licenses/mit/)
