@@ -36,6 +36,12 @@ Please make sure to update tests as appropriate.
 
 test **test** test test test
 
-- test
+test'test
 
-> test
+**test'test**
+
+test'te'st
+
+test''test
+
+test'''test
