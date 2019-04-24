@@ -1,8 +1,6 @@
-site: "onlineyamltools.com"
-protocol: "https"
+site: Authentication
+protocol: Authentication
 analytics: 
-  - google analytics
+  - automatic
   - statcounter
-server: 192.168.132.4
-notifications: off
-keywords: [ "yaml", "markup" ]
+
