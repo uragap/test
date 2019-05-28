@@ -1,7 +1,3 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
@@ -24,7 +20,6 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 
 test test test *test*
 
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -37,12 +32,23 @@ test'test
 
 **test'test**
 
-test'te'st
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+  
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+   
+ ![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
-test''test
+As Kanye West said:
+> We're living the future so
+> the present is our past.
 
-test'''test
-
-the water
-
-test"test
+I think you should use an
+`<addr>` element here instead.
