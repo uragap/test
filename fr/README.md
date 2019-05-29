@@ -1,6 +1,9 @@
 # Foobar
 
-Foobar est une bibliothèque Python permettant de gérer la pluralisation des mots.
+Foobar est une 
+* bibliothèque Python 
+* permettant de gérer la 
+* pluralisation des mots.
 
 ## Installation
 
