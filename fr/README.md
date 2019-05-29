@@ -7,7 +7,9 @@ Foobar est une
 
 ## Installation
 
-Utilisez le gestionnaire de paquets [pip](https://pip.pypa.io/en/stable/) pour installer foobar.
+Utilisez le 
+* gestionnaire de 
+* paquets [pip](https://pip.pypa.io/en/stable/) pour installer foobar.
 
 ```bash
 pip install foobar
