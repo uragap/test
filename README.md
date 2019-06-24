@@ -54,4 +54,4 @@ As Kanye West said:
 
 Test this symbol >
 
-and > this
+and &gt; this
