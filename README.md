@@ -57,3 +57,5 @@ Test this symbol >
 and &gt; this
 
 test &gt; test
+
+{: .page-title}
