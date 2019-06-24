@@ -3,7 +3,7 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install foobar
+pip install > foobar
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ test **test** test test test
 
 test'test
 
-**test'test**
+**test>test**
 
 * Item 1
 * Item 2
@@ -51,3 +51,7 @@ As Kanye West said:
 > the present is our past.
 
 `<addr>`
+
+Test this symbol >
+
+and > this
