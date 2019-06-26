@@ -28,7 +28,7 @@ test test test *test*
 
 test **test** test test test
 
-test'test {code0}test{/code0}
+test'test `test` test
 
 **test>test**
 
