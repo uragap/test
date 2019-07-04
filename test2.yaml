@@ -5,7 +5,7 @@ plain scalars:
 
 single quoted:
 - '& starts with a special character, needs quotes'
-- 'this \ backslash also does not need to be escaped'
+- 'this \ backslash also <pre> does not </pre> need to be escaped'
 - 'just like the " double quote'
 - 'to express one single quote, use '' two of them'
 
