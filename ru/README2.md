@@ -1,24 +1,24 @@
 # Hello World!
 
-**Before getting started with Rust and Wasm, be sure to check out all of the languages available, by clicking the "languages" link in the header.**
+**Прежде чем приступить к работе с Rust и Wasm, обязательно ознакомьтесь со всеми доступными языками, нажав ссылку «языки» в заголовке.**
 
-## Overview
+## обзор
 
-For our first program, we will be doing a "Hello world" type of program in [Rust](https://www.rust-lang.org/) and [wasm-pack](https://github.com/rustwasm/wasm-pack).
+Для нашей первой программы мы будем создавать программы типа «Hello world» на [Rust](https://www.rust-lang.org/) и [wasm-pack](https://github.com/rustwasm/wasm-pack) .
 
 Для простоты использования ограничений Wasm, упомянутых [во вводном примере](/example-redirect?exampleName=introduction&programmingLanguage=all) , вместо отображения строки мы сложим вместе два числа и отобразим результат. Хотя следует иметь в виду, что в следующих примерах многие из этих ограничений будут абстрагированы выбранным вами языком WebAssembly (в данном случае Rust). Также настоятельно рекомен.
 
 ---
 
-## Project Setup
+## Настройка проекта
 
-So first, Let's get [rust installed](https://www.rust-lang.org/tools/install), which includes [cargo](https://doc.rust-lang.org/cargo/index.html). Then, using cargo, let's install wasm-pack, which we will need later:
+Итак, во-первых, давайте [установим ржавчину](https://www.rust-lang.org/tools/install) , которая включает в себя [груз](https://doc.rust-lang.org/cargo/index.html) . Затем, используя cargo, давайте установим wasm-pack, который нам понадобится позже:
 
 ```bash
 cargo install wasm-pack
 ```
 
-Next, let's create our rust crate in our current directory using cargo:
+Далее, давайте создадим нашу корзину для ржавчины в нашем текущем каталоге с использованием cargo
 
 ```bash
 cargo init
@@ -40,15 +40,15 @@ crate-type = ["cdylib"]
 wasm-bind
 ```
 
-Lastly, let's take a quick peek inside at the `src/` directory. Since we are building a library (lib) to be used by a larger application, **we need to rename the `src/main.rs` to `src/lib.rs`.** Go ahead and do that now before moving forward.
+Наконец, давайте быстро заглянем внутрь каталога `src/` . Поскольку мы собираем библиотеку (lib) для использования в более крупном приложении, **нам нужно переименовать `src/main.rs` в `src/lib.rs`** Идите и сделайте это сейчас, прежде чем двигаться вперед.
 
-Now that we have our project and environment setup, let's go ahead and start the actual implementation.
+Теперь, когда у нас есть настройки проекта и среды, давайте продолжим и приступим к фактической реализации.
 
 ---
 
-## Implementation
+## Реализация
 
-Let's go ahead and replace `src/lib.rs` with the required `use` call as mentioned in the quickstart, as well as our add function:
+Давайте продолжим и заменим `src/lib.rs` требуемым вызовом `use` как упомянуто в `src/lib.rs` , а также нашей функцией add:
 
 ```rust
 // Add the wasm-pack crate
@@ -69,7 +69,7 @@ pub fn add(a: i32, b: i32) -> i32 {
 wasm-pack build --release --target web
 ```
 
-This will output a `pkg/` directory containing our wasm module, wrapped in a js object. Next, lets create an `index.js` JavaScript file, and import the outputted ES6 module in our `pkg/` directory. Then, we will call our exported `add()` function:
+Это выведет каталог `pkg/` содержащий наш модуль wasm, обернутый в объект js. `index.js` давайте создадим `index.js` JavaScript `index.js` и импортируем выведенный модуль ES6 в наш каталог `pkg/` . Затем мы вызовем нашу экспортированную функцию `add()` :
 
 ```javascript
 // Import our outputted wasm ES6 module
@@ -109,4 +109,4 @@ You should have something similar to the demo ([Source Code](/source-redirect?pa
 
 <iframe title="Rust Demo" src="/examples/hello-world/demo/rust/"></iframe>
 
-Next let's take a deeper look at WebAssembly [Exports](/example-redirect?exampleName=exports).
+Далее давайте более глубокий взгляд на WebAssembly [экспорт](/example-redirect?exampleName=exports) .
