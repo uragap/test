@@ -6,7 +6,7 @@
 
 Для нашей первой программы мы будем создавать программы типа «Hello world» на [Rust](https://www.rust-lang.org/) и [wasm-pack](https://github.com/rustwasm/wasm-pack) .
 
-Для простоты использования ограничений Wasm, упомянутых [во вводном примере](/example-redirect?exampleName=introduction&programmingLanguage=all) , вместо отображения строки мы сложим вместе два числа и отобразим результат. Хотя следует иметь в виду, что в следующих примерах многие из этих ограничений будут абстрагированы выбранным вами языком WebAssembly (в данном случае Rust). Также настоятельно рекомен.
+Для простоты ограничений Wasm, упомянутых [во вводном примере](/example-redirect?exampleName=introduction&programmingLanguage=all) , вместо отображения строки мы сложим вместе два числа и отобразим результат. Хотя следует иметь в виду, что в следующих примерах многие из этих ограничений будут абстрагированы выбранным вами языком WebAssembly (в данном случае Rust). Также настоятельно рекомен.
 
 ---
 
@@ -80,7 +80,7 @@ const runWasm = async () => {
   // Instantiate our wasm module
   const helloWorld = await wasmInit("./pkg/hello_world_bg.wasm");
 
-  // Call the Add function export from wasm, save the result
+  // the Add function export from wasm, save the result
 
   document.body.textContent = `Hello World! addResult: ${addResult}`;
 };
