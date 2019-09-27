@@ -1,12 +1,12 @@
 # Hello World!
 
-**Before getting started with Rust and Wasm, be sure to check out all of the languages available, by clicking the "languages" link in the header.**
+**Antes de comenzar con Rust and Wasm, asegúrese de revisar todos los idiomas disponibles, haciendo clic en el enlace "idiomas" en el encabezado.**
 
 ## Overview
 
-For our first program, we will be doing a "Hello world" type of program in [Rust](https://www.rust-lang.org/) and [wasm-pack](https://github.com/rustwasm/wasm-pack).
+Para nuestro primer programa, haremos un tipo de programa "Hola mundo" en [Rust](https://www.rust-lang.org/) y [wasm-pack](https://github.com/rustwasm/wasm-pack) .
 
-To keep things simple with Wasm's limitations mentioned [in the introduction example](/example-redirect?exampleName=introduction&programmingLanguage=all), instead of displaying a string, we will add two numbers together and display the result. Though, it is good to keep in mind, in later examples, a lot of these limitations will be abstracted away by your WebAssembly Language of choice (In this case, Rust). It is also highly reccommended you take a look at the [wasm-pack QuickStart Guide](https://github.com/rustwasm/wasm-pack#-quickstart-guide), as it will be referenced a lot in this example.
+Para simplificar las cosas con las limitaciones de Wasm mencionadas [en el ejemplo de introducción](/example-redirect?exampleName=introduction&programmingLanguage=all) , en lugar de mostrar una cadena, agregaremos dos números y mostraremos el resultado. Sin embargo, es bueno tener en cuenta que, en ejemplos posteriores, muchas de estas limitaciones serán eliminadas por el lenguaje de WebAssembly de su elección (en este caso, Rust). También se recomienda encarecidamente que eche un vistazo a la [Guía de inicio rápido de wasm-pack](https://github.com/rustwasm/wasm-pack#-quickstart-guide) , ya que se mencionará mucho en este ejemplo.
 
 ---
 
