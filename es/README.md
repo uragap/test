@@ -1,4 +1,4 @@
-# Exportaciones
+# Export
 
 ## Visión de conjunto
 
