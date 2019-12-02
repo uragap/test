@@ -73,3 +73,9 @@ Lastly, lets load our ES6 Module, `index.js` Javascript file in our `index.html`
 Next let's take a look at [WebAssembly Linear Memory](/example-redirect?exampleName=webassembly-linear-memory).
 
 jiomujmoik,opijm9uijniujn9ikm0polk
+
+agsrewhsarejhsrt
+wrehaartj
+szfgjsrg
+
+srkjsfgkmxgh,msgh,kmtyh,kgdhmdb
