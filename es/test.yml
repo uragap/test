@@ -12,6 +12,8 @@ warps:
     not-safe: "&amp; c ¡Esa deformación no es segura!"
     your-level-is: "&amp; cEl nivel de su isla es solo [nivel] y debe ser superior
       a [requerido]. Ejecute el comando de nivel."
+    does-not-exist: "& cOh snap! ¡Esa deformación ya no existe!"
+    no-remove: "& CY¡No puedes eliminar ese signo!"
   help:
     description: abrir el panel de urdimbres
   next: "&amp; 6Página siguiente"
@@ -23,3 +25,4 @@ warps:
   title: Signos de deformación
   warpTip: "&amp; 6 Coloque un signo de deformación con [texto] en la parte superior"
   warpToPlayersSign: "&amp; 6 Advertencia sobre el signo de [jugador]"
+  deactivate: "& cOld warp sign desactivado!"
