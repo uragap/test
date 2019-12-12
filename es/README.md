@@ -71,3 +71,11 @@ Por último, carguemos nuestro archivo ES6 Module, `index.js` Javascript en nues
 <iframe title="Rust Demo" src="/examples/exports/demo/rust/"></iframe>
 
 A continuación, echemos un vistazo a la [memoria lineal de WebAssembly](/example-redirect?exampleName=webassembly-linear-memory) .
+
+jiomujmoik,opijm9uijniujn9ikm0polk
+
+agsrewhsarejhsrt
+wrehaartj
+szfgjsrg
+
+srkjsfgkmxgh,msgh,kmtyh,kgdhmdb
