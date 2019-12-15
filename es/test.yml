@@ -1,0 +1,28 @@
+---
+warp:
+  help:
+    description: deformación al signo de deformación del jugador
+    parameters: "<player name>"
+warps:
+  error:
+    no-permission: "¡No tiene permiso para hacer eso!"
+    no-warps-yet: "&amp; CT todavía no hay warps disponibles"
+    not-enough-level: "¡Y tu nivel de isla no es lo suficientemente alto!"
+    not-on-island: "¡Y debes estar en tu isla para hacer eso!"
+    not-safe: "&amp; c ¡Esa deformación no es segura!"
+    your-level-is: "&amp; cEl nivel de su isla es solo [nivel] y debe ser superior
+      a [requerido]. Ejecute el comando de nivel."
+    does-not-exist: "& cOh snap! ¡Esa deformación ya no existe!"
+    no-remove: "& CY¡No puedes eliminar ese signo!"
+  help:
+    description: abrir el panel de urdimbres
+  next: "&amp; 6Página siguiente"
+  player-warped: "&amp; 2 [nombre] deformado a su signo de deformación!"
+  previous: "&amp; 6 Página anterior"
+  random: "&amp; 4 Deformación aleatoria"
+  sign-removed: "&amp; CWarp signo eliminado!"
+  success: "&amp;¡Un éxito!"
+  title: Signos de deformación
+  warpTip: "&amp; 6 Coloque un signo de deformación con [texto] en la parte superior"
+  warpToPlayersSign: "&amp; 6 Advertencia sobre el signo de [jugador]"
+  deactivate: "& cOld warp sign desactivado!"
