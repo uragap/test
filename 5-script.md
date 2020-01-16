@@ -32,3 +32,6 @@ book_path: /web/feedback/_book.yaml
     }
   </script>
 {% endframebox %}
+
+
+test <strong>text</strong> test
