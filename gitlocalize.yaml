@@ -1,0 +1,5 @@
+pretranslate:
+  paths:
+  - source: .
+    include:
+      - "script27.md"
