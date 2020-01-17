@@ -2,4 +2,4 @@ pretranslate:
   paths:
   - source: .
     include:
-      - "script.md"
+      - "script1.md"
