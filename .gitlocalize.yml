@@ -1,3 +1,8 @@
+synchronize:
+  paths:
+  - source: src/site/content/en
+    exclude:
+    - "lighthouse-seo/*.*"
 pretranslate:
   paths:
   - source: .
