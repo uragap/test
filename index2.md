@@ -16,8 +16,8 @@ description: |
 
 In order for a screen reader to present a spoken UI to the user, meaningful
 elements must have proper labels or text alternatives. A label or text
-alternative gives an element its accessible **name**, one of the key properties
-for [expressing element semantics in the accessibility tree](/semantics-and-screen-readers/#semantic-properties-and-the-accessibility-tree).
+alternative gives an element its accessible name, one of the key properties
+for expressing element semantics in the accessibility tree.
 
 When an element's name is combined with the element's **role**, it gives the
 user context so they can understand what type of element they're interacting
