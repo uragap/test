@@ -14,4 +14,4 @@ pretranslate:
   paths:
   - source: .
     include:
-    - "index.md"
+    - "README.md"
