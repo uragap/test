@@ -14,7 +14,7 @@ Para que un lector de pantalla presente una IU hablada al usuario, los elementos
 
 Cuando el nombre de un elemento se combina con el **rol** del elemento, le da al usuario un contexto para que pueda entender con qué tipo de elemento interactúa y cómo se representa en la página. Si no hay un nombre presente, un lector de pantalla solo anuncia el rol del elemento. Imagínese tratando de navegar una página y escuchando "botón", "casilla de verificación", "imagen" sin ningún contexto adicional. Es por eso que el etiquetado y las alternativas de texto son cruciales para una experiencia buena y accesible.
 
-## Inspeccionar el nombre de un elemento
+## Inspeccionar el nombre de un elemento asdaq
 
 Es fácil verificar el nombre accesible de un elemento usando DevTools de Chrome:
 
@@ -22,10 +22,7 @@ Es fácil verificar el nombre accesible de un elemento usando DevTools de Chrome
 2. En el panel Elementos, busque el panel **Accesibilidad** . Puede estar oculto detrás de un `»` símbolo.
 3. En el menú desplegable **Propiedades** calculadas, busque la propiedad **Nombre** .
 
-<figure class="w-figure">
-  <img class="w-screenshot w-screenshot--filled" src="https://github.com/uragap/test/blob/master/devtools-name.png?raw=true" alt="">
-  <figcaption class="w-figcaption">Panel de accesibilidad de DevTools que muestra el nombre calculado de un botón.</figcaption>
-</figure>
+<figure class="w-figure">   <img class="w-screenshot w-screenshot--filled" src="https://github.com/uragap/test/blob/master/devtools-name.png?raw=true" alt="">   <figcaption class="w-figcaption">Panel de accesibilidad de DevTools que muestra el nombre calculado de un botón.</figcaption> </figure>
 
 {% Aside %} Para obtener más información, consulte la [Referencia de accesibilidad de DevTools](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference) . {% endAside %}
 
@@ -46,53 +43,35 @@ Existen diferentes formas de agregar un nombre accesible a un elemento, según s
     <tbody>
       <tr>
         <td>Documento HTML</td>
-        <td>
-          <a href="#etiquetar-documentos-y-marcos">Etiquetar documentos y marcos</a>
-        </td>
+        <td><a href="#etiquetar-documentos-y-marcos">Etiquetar documentos y marcos</a></td>
       </tr>
       <tr>
-        <td><frame></frame> o <iframe></iframe> elementos</td>
-        <td>
-          <a href="#etiquetar-documentos-y-marcos">Etiquetar documentos y marcos</a>
-        </td>
+        <td> <frame></frame> o <iframe></iframe> elementos</td>
+        <td><a href="#etiquetar-documentos-y-marcos">Etiquetar documentos y marcos</a></td>
       </tr>
       <tr>
         <td>Elementos de imagen</td>
-        <td>
-          <a href="#incluir-alternativas-de-texto-para-im%C3%A1genes-y-objetos">Incluir alternativas de texto para imágenes y objetos.</a>
-        </td>
+        <td><a href="#incluir-alternativas-de-texto-para-im%C3%A1genes-y-objetos">Incluir alternativas de texto para imágenes y objetos.</a></td>
       </tr>
       <tr>
-        <td>
-<code><input type="image"></code> elementos</td>
-        <td>
-          <a href="#incluir-alternativas-de-texto-para-im%C3%A1genes-y-objetos">Incluir alternativas de texto para imágenes y objetos.</a>
-        </td>
+        <td> <code><input type="image"></code> elementos</td>
+        <td><a href="#incluir-alternativas-de-texto-para-im%C3%A1genes-y-objetos">Incluir alternativas de texto para imágenes y objetos.</a></td>
       </tr>
       <tr>
-        <td>
-<object></object> elementos</td>
-        <td>
-          <a href="#incluir-alternativas-de-texto-para-im%C3%A1genes-y-objetos">Incluir alternativas de texto para imágenes y objetos.</a>
-        </td>
+        <td> <object></object> elementos</td>
+        <td><a href="#incluir-alternativas-de-texto-para-im%C3%A1genes-y-objetos">Incluir alternativas de texto para imágenes y objetos.</a></td>
       </tr>
       <tr>
         <td>Botones</td>
-        <td>
-          <a href="#etiquetar-botones-y-enlaces">Etiquetar botones y enlaces</a>
-        </td>
+        <td><a href="#etiquetar-botones-y-enlaces">Etiquetar botones y enlaces</a></td>
       </tr>
       <tr>
         <td>Enlaces</td>
-        <td>
-          <a href="#etiquetar-botones-y-enlaces">Etiquetar botones y enlaces</a>
-        </td>
+        <td><a href="#etiquetar-botones-y-enlaces">Etiquetar botones y enlaces</a></td>
       </tr>
       <tr>
         <td>Elementos de formulario</td>
-        <td>
-          <a href="#elementos-de-formulario-de-etiqueta">Elementos de formulario de etiqueta</a>
-        </td>
+        <td><a href="#elementos-de-formulario-de-etiqueta">Elementos de formulario de etiqueta</a></td>
       </tr>
     </tbody>
   </table>
@@ -217,10 +196,7 @@ Check out <a href="/guide">our guide to web performance</a>.
 
 Esto es especialmente útil para los lectores de pantalla que ofrecen accesos directos para enumerar todos los enlaces de la página. Si los enlaces están llenos de texto de relleno repetitivo, estos accesos directos se vuelven mucho menos útiles:
 
-<figure class="w-figure w-figure--center">
-  <img src="https://github.com/uragap/test/blob/master/vo.jpg?raw=true" alt="VoiceOver's links menu filled with the word 'here'.">
-  <figcaption class="w-figcaption">Ejemplo de VoiceOver, un lector de pantalla para macOS, que muestra el menú de navegación por enlaces.</figcaption>
-</figure>
+<figure class="w-figure w-figure--center">   <img src="https://github.com/uragap/test/blob/master/vo.jpg?raw=true" alt="VoiceOver's links menu filled with the word 'here'.">   <figcaption class="w-figcaption">Ejemplo de VoiceOver, un lector de pantalla para macOS, que muestra el menú de navegación por enlaces.</figcaption> </figure>
 
 ## Elementos de formulario de etiqueta
 
@@ -243,6 +219,4 @@ Hay dos formas de asociar una etiqueta con un elemento de formulario, como una c
 
 Cuando la casilla de verificación se ha etiquetado correctamente, el lector de pantalla puede informar que el elemento tiene una función de casilla de verificación, está en un estado marcado y se llama "¿Recibir ofertas promocionales?" como en el ejemplo de VoiceOver a continuación:
 
-<figure class="w-figure w-figure--center">
-  <img class="w-screenshot" src="https://github.com/uragap/test/blob/master/promo-offers.png?raw=true" alt="VoiceOver text output showing 'Receive promotional offers?'">
-</figure>
+<figure class="w-figure w-figure--center">   <img class="w-screenshot" src="https://github.com/uragap/test/blob/master/promo-offers.png?raw=true" alt="VoiceOver text output showing 'Receive promotional offers?'"> </figure>
