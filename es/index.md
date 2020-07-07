@@ -14,7 +14,7 @@ Para que un lector de pantalla presente una IU hablada al usuario, los elementos
 
 Cuando el nombre de un elemento se combina con el **rol** del elemento, le da al usuario un contexto para que pueda entender con qué tipo de elemento interactúa y cómo se representa en la página. Si no hay un nombre presente, un lector de pantalla solo anuncia el rol del elemento. Imagínese tratando de navegar una página y escuchando "botón", "casilla de verificación", "imagen" sin ningún contexto adicional. Es por eso que el etiquetado y las alternativas de texto son cruciales para una experiencia buena y accesible.
 
-## Inspeccionar el nombre de un elemento asdaq
+## Inspeccionar el nombre de un elemento
 
 Es fácil verificar el nombre accesible de un elemento usando DevTools de Chrome:
 
