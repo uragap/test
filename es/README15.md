@@ -14,7 +14,7 @@ Los proyectos siempre están cambiando, y mantenerlos localizados puede ser un d
 
 ¡Hola Mundo! 2
 
-### Cómo funciona <a id="how-it-works"></a>
+### Cómo funciona <a id="how-it-works"></a> new text
 
 ¡Hola Mundo! 3
 
