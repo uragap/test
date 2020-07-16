@@ -1,0 +1,22 @@
+---
+rows:
+- classname: devsite-landing-row-67
+  items:
+  - heading: Քննարկում են լուծումները
+    description: |
+      <p>
+        Քննարկվող մարտահրավերները, որոնց հետ բախվում եք այլ մշակողների հետ, ա
+        հիանալի միջոց ինչպես ուսման, այնպես էլ լավագույն փորձի փոխանակման համար:
+      </p> <ul>
+        <li>
+          <a href="https://stackoverflow.com/questions/tagged/google-chrome" class="gc-analytics-event" data-categor="webfundamentals" data-label="so-gchrome">
+            <code> google-chrome </code> պիտակը Stack Overflow- ում
+          </a>
+        </li>
+        <li>
+          <a href="https://join.slack.com/t/chromiumdev/shared_invite/enQtMzM3NjYwNjI0MDM4LTk2NjEyYTIxODk1MDYxMmNjNWYzMGMxZGVhMDNhY2I1ZjBhMjdlYTg0MTg4ZGE0OTQ0ZmYwNTRiMGJlYzVjOTE" class="gc-analytics-event" data-category="webfundamentals" data-label="slack-chromiumdev">
+            ChromiumDev Slack Channel- ը
+          </a>
+        </li>
+      </ul>
+    image_path: պատկերներ / բովանդակություն մշակող-քննարկումներ-արձագանքող-2x.png
