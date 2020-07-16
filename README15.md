@@ -12,7 +12,11 @@ Hello, world! 1
 
 Projects are always changing, and keeping them localized can be a daunting \(and annoying\) challenge. We realized this and decided that there should be a way to streamline this. GitLocalize connects to your GitHub repository and seamlessly integrates with your development workflow in just a few clicks
 
-Hello, world! 2
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
+```
 
 ### How It Works <a id="how-it-works"></a>
 
