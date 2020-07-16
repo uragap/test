@@ -1,5 +1,5 @@
 ---
-description: Basic information about GitLocalize
+description: Հիմնական տեղեկություններ GitLocalize- ի մասին
 ---
 
 # GitLocalize- ի մասին
